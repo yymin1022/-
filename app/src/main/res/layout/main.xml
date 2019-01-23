@@ -1,0 +1,52 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:layout_margin="5dp"
+	android:orientation="vertical"
+    android:gravity="center">
+	
+	<TextView
+		android:text="우점종 결정을 위한 방형구에서의 중요값 계산\n개발자 : 성보고등학교 유용민"
+		android:textSize="25sp"
+		android:layout_gravity="center"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<Button
+		android:onClick="abDensity"
+		android:text="절대 밀도"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<Button
+		android:onClick="abFrequency"
+		android:text="절대 빈도"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<Button
+		android:onClick="abValue"
+		android:text="절대 피도"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<Button
+		android:onClick="reDensity"
+		android:text="상대 밀도"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<Button
+		android:onClick="reFrequency"
+		android:text="상대 빈도"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+	<Button
+		android:onClick="reValue"
+		android:text="상대 피도"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content" />
+
+</LinearLayout>
